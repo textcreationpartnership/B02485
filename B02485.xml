@@ -1,0 +1,949 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The distressed VVelsh-man, born in Trinity-Lane. With a relation of his travels, being altogether unfortunate. / By Hugh Crumpton.</title>
+            <author>Crompton, Hugh, fl. 1657.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1688</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B02485</idno>
+            <idno type="STC">Wing C7027C</idno>
+            <idno type="STC">ESTC R174316</idno>
+            <idno type="EEBO-CITATION">51617697</idno>
+            <idno type="OCLC">ocm 51617697</idno>
+            <idno type="VID">175193</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B02485)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 175193)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2719:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The distressed VVelsh-man, born in Trinity-Lane. With a relation of his travels, being altogether unfortunate. / By Hugh Crumpton.</title>
+                  <author>Crompton, Hugh, fl. 1657.</author>
+               </titleStmt>
+               <extent>24 p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed for W. Thackeray, at the Angel in Duck-lane,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Place of publication from Wing.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Welsh --  Humor --  Early works to 1800.</term>
+               <term>Welsh --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-10</date>
+            <label>Enrique Valdive</label>Sampled and proofread</change>
+         <change>
+            <date>2013-10</date>
+            <label>Enrique Valdive</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:175193:1"/>
+            <pb facs="tcp:175193:1" rendition="simple:additions"/>
+            <p>The Diſtreſſed VVelſh-man, Born in <hi>Trinity-Lane.</hi>
+            </p>
+            <p>With a relation of his Travels, being altogether Unfortunate. By <hi>Hugh Crumpton<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi>
+            </p>
+            <figure>
+               <figDesc>woodcut of man walking amongst mountain goats</figDesc>
+            </figure>
+            <p>Printed for <hi>W, Thackeray,</hi> at the <hi>Angel</hi> in <hi>Duck-lane,</hi> 1688.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:175193:2"/>
+            <head>The Diſtreſſed <hi>Welſhman.</hi>
+            </head>
+            <l>IF any ask her what her am,</l>
+            <l>her is a Shentleman,</l>
+            <l>If you will not believe her, then</l>
+            <l>go into <hi>Trinity Lane:</hi>
+            </l>
+            <l>For there her was born and bred,</l>
+            <l>and afterwards begotten,</l>
+            <l>And there her hopes to lay her head</l>
+            <l>when all her bones are rotten.</l>
+            <l>All you good people that intend</l>
+            <l>to recreate your mind,</l>
+            <l>Read o're this ſtory to the <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd,</l>
+            <pb facs="tcp:175193:2"/>
+            <l>peruſe theſe ſimple Lines.</l>
+            <l>Upon a time it chanced ſo</l>
+            <l>that <hi>Taffie</hi> did decree</l>
+            <l>To leave her Country for to go</l>
+            <l>to ſeek her deſtiny.</l>
+            <l>Now her prepares for her depart,</l>
+            <l>and bids them all farewell,</l>
+            <l>Her goes away with all her heart,</l>
+            <l>this ſhourney likes her well:</l>
+            <l>Was travel up to <hi>London</hi> town,</l>
+            <l>to ſee the City brave,</l>
+            <l>Her in the ſtreets walks up and down,</l>
+            <l>what thinks her was a ſlave?</l>
+            <l>No, her hath money in her poke,</l>
+            <l>although her friends are ſmall,</l>
+            <l>Nay, more than this, her hath a cloak</l>
+            <l>to cover her withal.</l>
+            <l>And as her walkt along the ſtreet,</l>
+            <l>the City for to ſee,</l>
+            <l>A ſheating quean doth <hi>Taffy</hi> meet,</l>
+            <l>and robs him craftily.</l>
+            <l>Now he perceives when ſhe was gone</l>
+            <l>his mony all was loſt,</l>
+            <l>And after her in haſte did run,</l>
+            <l>it is no time to boaſt.</l>
+            <l>But all in vain, for ſhe's too ſwift,</l>
+            <l>ſhe leaveth him behind:</l>
+            <l>Now he to ſtudy ſome new ſhift,</l>
+            <l>applies his angry mind:</l>
+            <l>Now her laments her evil fate</l>
+            <l>and bitter deſtiny,</l>
+            <pb facs="tcp:175193:3"/>
+            <l>For her is left to ſuch a ſtate,</l>
+            <l>her knows not where to lye.</l>
+            <l>
+               <hi>Cots plutter-a-nails</hi> he then replies,</l>
+            <l>her knows not what to do:</l>
+            <l>For her hath ſeen her better daies,</l>
+            <l>and bid them all adieu.</l>
+            <l>Her dotn lament and weep for grief,</l>
+            <l>at her unhappy loſs,</l>
+            <l>Her ſeeks about for ſome relief,</l>
+            <l>but all in vain it was:</l>
+            <l>At length her came into a ſhop</l>
+            <l>where Meat was to be ſold,</l>
+            <l>He ſits him down, begins to knock,</l>
+            <l>the Knave was ſomewhat bold.</l>
+            <l>Her doth begin and thus doth ſay,</l>
+            <l>her was a ſhen<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>leman,</l>
+            <l>Her time was ſhort nor cannot ſtay,</l>
+            <l>for her muſt ſoon be gone,</l>
+            <l>Her buſineſs at the Court remains</l>
+            <l>her thither muſt retire,</l>
+            <l>Or elſe her loſes all her gains,</l>
+            <l>O her was not a Lyer.</l>
+            <l>And then his Hoſteſs all in haſte,</l>
+            <l>brought to him riches ſtore,</l>
+            <l>And he by turn on each doth taſte,</l>
+            <l>there is no need of more.</l>
+            <l>In little time he doth ſuffice</l>
+            <l>his hunger that was great,</l>
+            <l>And from the table he doth riſe,</l>
+            <l>leaving but little Meat:</l>
+            <l>And then he calls a little Boy,</l>
+            <pb facs="tcp:175193:3"/>
+            <l>thus unto him he ſaid,</l>
+            <l>I give thee this, ſtay here while I</l>
+            <l>go ſee the Reckoning paid.</l>
+            <l>The boy more greedy of his gift</l>
+            <l>than of his Maſters gain,</l>
+            <l>To eat all he makes great ſhift</l>
+            <l>while <hi>Taffy</hi> runs amain.</l>
+            <l>This being done, mark one thing more,</l>
+            <l>now he hath made eſcape,</l>
+            <l>He calls to mind the day be<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore</l>
+            <l>her loſt her whole Eſtate:</l>
+            <l>Therefore her walks the ſtreets along</l>
+            <l>to ſee if there were any</l>
+            <l>That could redreſs poor <hi>Taffy</hi>'s wrong,</l>
+            <l>or help him to his money:</l>
+            <l>And as he walkt he met the quean</l>
+            <l>that pickt his poke before<g ref="char:punc">▪</g>
+            </l>
+            <l>Was coming to him once again</l>
+            <l>to ſee if there were more.</l>
+            <l>When <hi>Taffy</hi> ſaw he knew her face,</l>
+            <l>and runs to her with ſpeed:</l>
+            <l>But was done to his dis diſgrace,</l>
+            <l>as you'l hereafter read.</l>
+            <l>
+               <hi>Cots plutter-a-nails,</hi> this is the Thief</l>
+            <l>did ſteal her money from her,</l>
+            <l>And robb'd her of all her relief,</l>
+            <l>now her doth ſeize upon her.</l>
+            <l>This made the Welſhman for to ſmile,</l>
+            <l>though he her ſelf did know,</l>
+            <l>Before this bout a little while</l>
+            <l>
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er ſerved her Hoſteſs ſo.</l>
+            <pb facs="tcp:175193:4"/>
+            <l>This Cheat for fear of future wrong,</l>
+            <l>did to the people ſay,</l>
+            <l>He rob'd me as I went along,</l>
+            <l>a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d ſo her run away:</l>
+            <l>The people hearing her report,</l>
+            <l>
+               <hi>Taffy</hi> away they hawl</l>
+            <l>Into the Seſſions-houſe Court</l>
+            <l>to plead before them all:</l>
+            <l>And as they drag'd him through the ſtreet,</l>
+            <l>although his caſe was poor,</l>
+            <l>It chan<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed ſo that he did meet</l>
+            <l>the Cook he rob'd before.</l>
+            <l>Now <hi>Taffy</hi> muſt endure the heat,</l>
+            <l>before the Judge he's brought:</l>
+            <l>The Cook indicts him for his Meat,</l>
+            <l>the woman for his fault:</l>
+            <l>Now <hi>Taffy</hi> knowing what was done,</l>
+            <l>nothing at all did ſay,</l>
+            <l>But at the laſt to ſpeak begun,</l>
+            <l>was rob'd the other day.</l>
+            <l>Her ſheating trot was pick her poke,</l>
+            <l>and robbed her by craft,</l>
+            <l>Then her was forc'd to pawn her Cloak,</l>
+            <l>none other help was left:</l>
+            <l>And the<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> her ſelf doth wander to</l>
+            <l>a Victualling-houſe with ſpeed:</l>
+            <l>Was call for meat was tell to you,</l>
+            <l>her hunger for to feed:</l>
+            <l>When her was come into the Houſe,</l>
+            <l>her Hoſteſs brought good ſtore,</l>
+            <l>And her doth taſte of every diſh,</l>
+            <pb facs="tcp:175193:4"/>
+            <l>while her could eat no more.</l>
+            <l>Now her was going for to pay</l>
+            <l>for what her ſelf did eat,</l>
+            <l>And as her lookt another way,</l>
+            <l>her ſpies<g ref="char:punc">▪</g> me this ſhame ſheat.</l>
+            <l>Then her purſu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d her while at laſt</l>
+            <l>was catch'd her by the arm;</l>
+            <l>And ſhe turn'd back, catch'd me as faſt,</l>
+            <l>I had the greater harm.</l>
+            <l>The Juſtice hearing all was done,</l>
+            <l>and that they did abuſe him,</l>
+            <l>In order calls them one by one,</l>
+            <l>ſo kindly he did uſe him:</l>
+            <l>But <hi>Taffy's</hi> tongue could not refrain</l>
+            <l>was tell her all her mind;</l>
+            <l>He often cries, was ugly quean,</l>
+            <l>Cots-plut will beat her blind.</l>
+            <l>'Twill not prevail, 'tis all in vain,</l>
+            <l>
+               <hi>Taffy</hi> muſt ſurely dye,</l>
+            <l>It was not time to ſpeak again,</l>
+            <l>great was his villany.</l>
+            <l>Now <hi>Taffy</hi> knows not what to do,</l>
+            <l>to dye Sentence is given;</l>
+            <l>Will her believe? was tell her true,</l>
+            <l>was ſure to go to Heaven.</l>
+            <l>Theſe words did pleaſe the people well,</l>
+            <l>they all were bent to Laughter,</l>
+            <l>But mark what unto her befel,</l>
+            <l>the worſt of all comes after;</l>
+            <l>Juſt like an Image <hi>Taffy</hi> ſtands,</l>
+            <l>and dares not move at all,</l>
+            <pb facs="tcp:175193:5"/>
+            <l>But at the laſt he wrings his ha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ds,</l>
+            <l>and on his knees did fall;</l>
+            <l>Was pray her Juſtice, Jeſus ſake,</l>
+            <l>not j<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dge her to be hanged,</l>
+            <l>Some other ſorrows let her take,</l>
+            <l>her fears not to be banged:</l>
+            <l>The Juſtice then to him replies,</l>
+            <l>
+               <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hou ſhalt not hanged be;</l>
+            <l>
+               <hi>Co splut and ones,</hi> the <hi>Welſhman</hi> cry'd.</l>
+            <l>gr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>at thanks was given to thee.</l>
+            <l>but the Juſtice ſpeaking on</l>
+            <l>did much increaſe her ſorrow,</l>
+            <l>Thy hand ſhall burned be a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on,</l>
+            <l>yea, almoſt burned thorow.</l>
+            <l>This liked not the <hi>Welſhman</hi> well,</l>
+            <l>yet her had rather bide</l>
+            <l>To ſee the Suburbs of black <hi>Hell,</hi>
+            </l>
+            <l>than in the town to ride.</l>
+            <l>Hold up thy hand the hangman ſaid</l>
+            <l>where I ſhall thee appoint;</l>
+            <l>This made poor <hi>Taffie</hi> ſore afraid</l>
+            <l>was wiſh 'twas out of joint.</l>
+            <l>The hangman then to him did ſay,</l>
+            <l>when I the Iron bring,</l>
+            <l>Hold thy head another way,</l>
+            <l>ſay thrice <hi>God ſave the King.</hi>
+            </l>
+            <l>The hangman he ma<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es no delay,</l>
+            <l>but quic<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ly clapt it too,</l>
+            <l>
+               <hi>God ſave; plut</hi> was hot her ſays,</l>
+            <l>was almoſt burned through.</l>
+            <l>The people all did laugh ou<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>right</l>
+            <pb facs="tcp:175193:5"/>
+            <l>while he did weep as faſt,</l>
+            <l>The hangman put him to a fright,</l>
+            <l>ſays all his grief's not paſt.</l>
+            <l>He tells him he muſt burn once more</l>
+            <l>becauſe he did not ſing</l>
+            <l>As he had taught him once before,</l>
+            <l>three times <hi>God ſave the King.</hi>
+            </l>
+            <l>
+               <hi>Cots-p<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ut and ones,</hi> was make her cry,</l>
+            <l>
+               <hi>Cot bleſs her burning arm;</hi>
+            </l>
+            <l>Excuſe her to her Majeſty</l>
+            <l>when her hath all the harm.</l>
+            <l>This being done, the Juſtice frees</l>
+            <l>poor <hi>Caffy</hi> by the Law;</l>
+            <l>But yet alas was pay her Fees,</l>
+            <l>or all's not worth a ſtraw.</l>
+            <l>This one thing grieves her moſt at laſt</l>
+            <l>than all was done before;</l>
+            <l>Her is not yet gone clearly paſt,</l>
+            <l>for there is one thing more.</l>
+            <l>The Keeper asks him for his Fees,</l>
+            <l>which vext the Welſhman ſore,</l>
+            <l>Her has no ſcore for ought her knew</l>
+            <l>was pay her all before.</l>
+            <l>Was ask her now for Keepers Fees,</l>
+            <l>her had no chink at all,</l>
+            <l>Her may not buy no Leeks nor Sheeſe,</l>
+            <l>her ſubſtance is ſo ſmall;</l>
+            <l>Was pray her Keeper op<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n door,</l>
+            <l>as her may truly ſwear,</l>
+            <l>As her was never there before,</l>
+            <l>will never more come there.</l>
+            <pb facs="tcp:175193:6"/>
+            <l>The Keeper hearing what he ſaid</l>
+            <l>was moved unto laughter,</l>
+            <l>Poor <hi>Taffy</hi> he no longer ſtaid,</l>
+            <l>take heed (quoth he) hereafter.</l>
+            <l>Now he hath 'ſcap'd the Keepers claws,</l>
+            <l>and hath his freedom won;</l>
+            <l>His mind is bent to learn the Laws,</l>
+            <l>and now her hath begun:</l>
+            <l>Forthwith to the Court he goes with ſpeed</l>
+            <l>a Lawyers Clark to be,</l>
+            <l>Yet he could neither write nor read,</l>
+            <l>O the more is the pity.</l>
+            <l>Now her was asked what her were,</l>
+            <l>her was a Shentleman,</l>
+            <l>And her hath ſuffer'd many a loſs,</l>
+            <l>thus her complaint began:</l>
+            <l>But her will rather bide the pain</l>
+            <l>a Lawyers man to be,</l>
+            <l>Before her will return again</l>
+            <l>into her own Country.</l>
+            <l>Although you know your calling ill,</l>
+            <l>yet her delights to live</l>
+            <l>A Servant to your pleaſures will,</l>
+            <l>if her will her believe,</l>
+            <l>Her never lov'd her bones ſhould work</l>
+            <l>at any toilſome trade,</l>
+            <l>But her likes beſt to be a Clark,</l>
+            <l>mark well what her hath ſaid:</l>
+            <l>His Maſter ask'd him if he had</l>
+            <l>learn'd Latin Books, or Greek,</l>
+            <l>What think her was a man was mad,</l>
+            <pb facs="tcp:175193:6"/>
+            <l>was think her cannot ſpeak:</l>
+            <l>Was learn'd her A B C 3 times o're,</l>
+            <l>before her had a Primmer;</l>
+            <l>And now her had no need of more,</l>
+            <l>her has enough within her.</l>
+            <l>Now they did ask if her could read</l>
+            <l>a Lawyers written ſcrole,</l>
+            <l>Now <hi>Taffy</hi> has nothing to plead,</l>
+            <l>he cannot read at all:</l>
+            <l>Kind Reader judge, is this thing true</l>
+            <l>which <hi>Taffy</hi> hath decreed,</l>
+            <l>He ſwears he'l write as well as you</l>
+            <l>though he could never read.</l>
+            <l>It was decreed for <hi>Taffy</hi> then</l>
+            <l>to learn his book apace,</l>
+            <l>And next day to return again</l>
+            <l>into the ſelf-ſame place;</l>
+            <l>Next day betimes to the place he goes,</l>
+            <l>from whence he did proceed.</l>
+            <l>What he hath learned no man knows,</l>
+            <l>he tells them he can read:</l>
+            <l>He meets his Maſter in the Hall</l>
+            <l>was tell her what was do,</l>
+            <l>Was write, <hi>God bleſs us,</hi> on a wall</l>
+            <l>and her was read it true.</l>
+            <l>The people then did laugh at him,</l>
+            <l>was thought her was in Heaven,</l>
+            <l>Becauſe to read her did begin</l>
+            <l>the ſentence that was written.</l>
+            <l>God bleſs me then forthwith he ſaid,</l>
+            <l>which when the people heard,</l>
+            <pb facs="tcp:175193:7"/>
+            <l>Said <hi>Taffy</hi> you have falſly pray'd</l>
+            <l>as by your words appear'd:</l>
+            <l>Her was not wrong, was tell untrue,</l>
+            <l>was ſure was no miſtake,</l>
+            <l>Pray for her ſelf and not for you,</l>
+            <l>leſt God ſhould her forſake.</l>
+            <l>'Twas wiſely done as I may ſay</l>
+            <l>of ſuch a fool as he,</l>
+            <l>And he muſt write all the next day</l>
+            <l>to gain a Lawyers Fee;</l>
+            <l>Her takes her ſeat, was bravely plac'd,</l>
+            <l>the Pen and Ink doth take,</l>
+            <l>A pattern was before his face</l>
+            <l>like to like he muſt make.</l>
+            <l>And as it happened there did ſee</l>
+            <l>his true copy before him,</l>
+            <l>An Apes Picture was hanging by,</l>
+            <l>and <hi>Taffy</hi> did adore him.</l>
+            <l>Now <hi>Taffy</hi> thought that was the rule</l>
+            <l>that he was for to follow,</l>
+            <l>Behold the wiſdom of a Fool</l>
+            <l>goes far beyond <hi>Appollo:</hi>
+            </l>
+            <l>He makes a form, as I was told.</l>
+            <l>would make a man to tremble,</l>
+            <l>And if that I may be ſo bold</l>
+            <l>it did himſelf reſemble.</l>
+            <l>
+               <hi>Cors-plut</hi> was Picture fine and brave,</l>
+            <l>was like her paſſing well.</l>
+            <l>Her picture to her Maſter gave,</l>
+            <l>ſee what to him befel:</l>
+            <l>Sir rah, I told thee thou ſhouldſt make</l>
+            <pb facs="tcp:175193:7"/>
+            <l>what was before thee written;</l>
+            <l>Therefore thou muſt for thy miſtake</l>
+            <l>with many ſtripes be beaten;</l>
+            <l>
+               <hi>Co<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s plutter-a-nails,</hi> will ſerve her ſo?</l>
+            <l>will ſtay with her no longer,</l>
+            <l>To ſeek her Fortune her will go</l>
+            <l>and her away will wander.</l>
+            <l>Now <hi>Taffy</hi> tells me he hath Land</l>
+            <l>was left to her in <hi>Wales,</hi>
+            </l>
+            <l>And her I poſſeſs it out of hand</l>
+            <l>becauſe her fortune fails;</l>
+            <l>But then the Maſter tells him he</l>
+            <l>would beg his whole Eſtate,</l>
+            <l>Becauſe of his ſimpicitly</l>
+            <l>a wiſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r man ſhould ha't.</l>
+            <l>But now her ſees there is no cauſe</l>
+            <l>why her ſhould loſe her Land,</l>
+            <l>For h<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r hath learn'd the Engliſh Laws,</l>
+            <l>her wears it in her hand.</l>
+            <l>Now <hi>Taffy</hi> tells them that before</l>
+            <l>her dearly bought her Learning,</l>
+            <l>Such pain was make her cry and roar,</l>
+            <l>whilſt her poor hand was burning;</l>
+            <l>But all in vain it will not do,</l>
+            <l>they threaten his Eſtate,</l>
+            <l>Then he replies the Tevil take you,</l>
+            <l>ſuch Rogues ſhall never ha't.</l>
+            <l>Her Father wiſe, got her a fool,</l>
+            <l>as you report of me,</l>
+            <l>Why may not her with her long tool</l>
+            <l>beget as wiſe as he?</l>
+            <pb facs="tcp:175193:8"/>
+            <l>Her will not loſe her own Eſtate,</l>
+            <l>indeed was tell her true,</l>
+            <l>Was ſure her has a wiſer pate</l>
+            <l>than give it unto you:</l>
+            <l>His words prevail againſt his Foes,</l>
+            <l>his Land ſhall not be given</l>
+            <l>To any that do him oppoſe.</l>
+            <l>O then her is in Heaven;</l>
+            <l>But now her knows not where to go,</l>
+            <l>nor whither to betake her;</l>
+            <l>Her has no Friends as her do know,</l>
+            <l>all people did forſake her;</l>
+            <l>Though her has Land and Money ſtore,</l>
+            <l>yet her has no poſſeſſion,</l>
+            <l>Therefore in <hi>England</hi> her is poor,</l>
+            <l>that is her own confeſſion.</l>
+            <l>Now her was go through thick and thin</l>
+            <l>to ſeek her better fate,</l>
+            <l>New courſe of Life her doth begin,</l>
+            <l>the old is out of date;</l>
+            <l>O her was hungry, cold and dry,</l>
+            <l>her knows no friends at all,</l>
+            <l>A Victualling-houſe her did eſpy,</l>
+            <l>I, but her wealth is ſmall;</l>
+            <l>Was enter in as her may ſay,</l>
+            <l>to ſeek for ſome relief,</l>
+            <l>Her ſits her down and there did ſtay,</l>
+            <l>next day her prov'd a Theif.</l>
+            <l>Was ask her Hoſteſs then indeed</l>
+            <l>if her had any Meat;</l>
+            <pb facs="tcp:175193:8"/>
+            <l>Her Hoſteſs brought her out with ſpeed</l>
+            <l>Calfes-head and heels to eat;</l>
+            <l>Was leave her heels and eat her head,</l>
+            <l>as her hath truly ſworn;</l>
+            <l>Will eat no more, but go to bed,</l>
+            <l>and take her heels i'th' morn.</l>
+            <l>The morn was come the heels was brought</l>
+            <l>
+               <hi>Taffy</hi> did kindly take them,</l>
+            <l>He gives his hoſteſs not a Groat,</l>
+            <l>and ſo he doth forſake them.</l>
+            <l>Now <hi>Taffy</hi> left them, and is fled,</l>
+            <l>but cannot hold his bragging;</l>
+            <l>But mark how after <hi>Taffy</hi> ſped,</l>
+            <l>his tongue muſt ſtill be wagging.</l>
+            <l>They apprehend his perſon then</l>
+            <l>and to the Juſtice bring him,</l>
+            <l>And in the ſtreet before all men</l>
+            <l>into a Priſon fling him;</l>
+            <l>'Twill not repay his Villany,</l>
+            <l>they put him in the Stocks,</l>
+            <l>From thence into the Pillory</l>
+            <l>with many luſty knocks:</l>
+            <l>Nay, more than this, the Welſhman ſhall</l>
+            <l>(as it ſhall ſoon appear)</l>
+            <l>Suffer a Loſs before them all,</l>
+            <l>the <hi>Cook</hi> muſt have his ear;</l>
+            <l>
+               <hi>Be Cot</hi> her ſtay, her ſhall not cut</l>
+            <l>her ear from off her head,</l>
+            <l>But if ſo be her muſt have it,</l>
+            <l>ſhall be when her is dead.</l>
+            <l>But this is vain, it will not ſerve,</l>
+            <pb facs="tcp:175193:9"/>
+            <l>the hangman ta<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e it <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ff,</l>
+            <l>And bravely he his fleſh doth carve,</l>
+            <l>whilſt all the people laugh.</l>
+            <l>This vexed <hi>Taffy</hi> to the heart,</l>
+            <l>will not appeaſed be,</l>
+            <l>His Ear-root doth ſo much ſmart,</l>
+            <l>fills her with miſery.</l>
+            <l>The hangman he then preſently</l>
+            <l>did ſhake the new-cut ear,</l>
+            <l>And <hi>Taffy</hi> fell into aſ wound,</l>
+            <l>to ſee her blood lye there.</l>
+            <l>They brought him water ſtrong and ſmall</l>
+            <l>to bring his life again,</l>
+            <l>He riſes up before them all,</l>
+            <l>O <hi>Taffy</hi> was not ſlain;</l>
+            <l>And then he goes out of the crew,</l>
+            <l>for ſo he thought it beſt,</l>
+            <l>Was Pox and Tevil both take you,</l>
+            <l>and ſo away he paſt;</l>
+            <l>Now <hi>Taffy</hi> in the <gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ield doth paſs</l>
+            <l>to rid him out of danger,</l>
+            <l>But the poor man was here (ala<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>)</l>
+            <l>abuſed by a ſtranger.</l>
+            <l>Then to common Butts he goes</l>
+            <l>to ſee the Archers aim,</l>
+            <l>And one of them ſhot him in the Noſe,</l>
+            <l>was almoſt ſplit in twain;</l>
+            <l>And now the Arrow there doth ſtay</l>
+            <l>while <hi>Taffy</hi> out doth take it,</l>
+            <l>If her ſhoot her here again I ſay,</l>
+            <l>
+               <hi>Cots-plutter-a-nails</hi> will break it,</l>
+            <pb facs="tcp:175193:9"/>
+            <l>He kindly gives the Arrow back</l>
+            <l>unto the man that ſhot it;</l>
+            <l>And thus poor <hi>Taffy</hi> goes to wrack,</l>
+            <l>but he hath not forgot it;</l>
+            <l>The Archers knowing what he was</l>
+            <l>could not refrain from laughter,</l>
+            <l>But <hi>Taffy</hi> I would thee adviſe,</l>
+            <l>take heed of them hereafter:</l>
+            <l>Well; 'tis no time for him to ſtay,</l>
+            <l>for he doth victuals need;</l>
+            <l>He ſeeks for victuals by the way,</l>
+            <l>his hunger for to feed.</l>
+            <l>At length he ſees a bed of <hi>Leeks,</hi>
+            </l>
+            <l>as he was paſſing by,</l>
+            <l>And how to ſteal them out he ſeeks,</l>
+            <l>to ſtudy policy.</l>
+            <l>Now <hi>Taffy</hi> boldly enters in</l>
+            <l>the the thick and thorny Hedge,</l>
+            <l>The which did re<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d and tear his Skin,</l>
+            <l>was almoſt break her Legs:</l>
+            <l>Now <hi>Taffy</hi> is in, the good mans Dog</l>
+            <l>comes running for to bite him,</l>
+            <l>He lies as ſtill as any Hog.</l>
+            <l>was ready <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> beſh — him.</l>
+            <l>The Dog did bite him by the breeks,</l>
+            <l>and rend his Coat in twain;</l>
+            <l>Inſtead of pulling up more Leeks</l>
+            <l>he lays them down again:</l>
+            <l>And as it chanced <hi>Taffy</hi> had</l>
+            <l>within his poke a Knife;</l>
+            <l>And preſently he drew the blade,</l>
+            <l>and rob'd the Dog of's life.</l>
+            <pb facs="tcp:175193:10"/>
+            <l>Then out the good man comes in haſte,</l>
+            <l>hearing the Dog to cry,</l>
+            <l>And down knockt <hi>Taffy</hi> at the laſt,</l>
+            <l>he on the ground doth lye.</l>
+            <l>The good man askt him who he was,</l>
+            <l>and how that he came thither;</l>
+            <l>Her ſaith was frighted by a Bear,</l>
+            <l>and ſo was forced thither:</l>
+            <l>The old man did ſearch his breeks</l>
+            <l>his Villany to know,</l>
+            <l>There he eſpied a bunch of Leeks,</l>
+            <l>and would not let him go.</l>
+            <l>Now he muſt to the Juſtice go,</l>
+            <l>and there he muſt be try'd,</l>
+            <l>All which was to increaſe his woe,</l>
+            <l>which he could not abide:</l>
+            <l>He muſt indure the rigid Laws,</l>
+            <l>as he had done before,</l>
+            <l>Muſt loſe his ears now for this cauſe,</l>
+            <l>to pay the Garderners ſcore.</l>
+            <l>O this was grieve her to the heart,</l>
+            <l>and puts her in a fear,</l>
+            <l>Now her muſt feel another ſmart,</l>
+            <l>to loſe her other ear.</l>
+            <l>The Hangman looks for <hi>Taffy</hi>'s ear,</l>
+            <l>which was cut off before,</l>
+            <l>But he could never find it there,</l>
+            <l>which vext the Hangman ſore.</l>
+            <l>I prithee friend, the Hangman cries,</l>
+            <l>tell me where I may find it,</l>
+            <l>For by no means I can deviſe,</l>
+            <l>mine eyes are ſo much blinded.</l>
+            <pb facs="tcp:175193:10"/>
+            <l>
+               <hi>Cots-plut</hi> was Rogue the Welſhman ſaid,</l>
+            <l>her think it is no reaſon,</l>
+            <l>Her ſhould find ears upon her head</l>
+            <l>for every time and ſeaſon.</l>
+            <l>Did not her give, mark what I ſay,</l>
+            <l>one of her ears before,</l>
+            <l>Therefore the Hangman now muſt ſtay;</l>
+            <l>was like to have no more.</l>
+            <l>
+               <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> all the people ſtanding there</l>
+            <l>
+               <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> his accuſer pray,</l>
+            <l>He ſhould not take this other ear,</l>
+            <l>but let him paſs away:</l>
+            <l>Forthwith they free him out of hand,</l>
+            <l>and gave him charge that he</l>
+            <l>Should ſoon depart out of the Land</l>
+            <l>into her own Countrey.</l>
+            <l>But her reſolv'd to ſtey a while,</l>
+            <l>to ſeek her better luck,</l>
+            <l>Though Fortune did her oft beguile,</l>
+            <l>will have the other pluck:</l>
+            <l>Now as for Silver her has none,</l>
+            <l>was forc'd to play the Begger,</l>
+            <l>Her to the people makes great moan,</l>
+            <l>it is no time to ſwagger,</l>
+            <l>Her to the people did conſent</l>
+            <l>to give him ſome relief,</l>
+            <l>Their pence a piece on him they ſpent,</l>
+            <l>though he was but a Thief.</l>
+            <l>Now <hi>Taffy</hi> thanks the people kind,</l>
+            <l>God bleſs her night and day,</l>
+            <l>Her bears this kindneſs in her mind,</l>
+            <l>and ſo her went away.</l>
+            <pb facs="tcp:175193:11"/>
+            <l>O her was glad with all her heart,</l>
+            <l>had money at her will;</l>
+            <l>Now her will learn her ſuch an Art,</l>
+            <l>that her will keep it ſtill;</l>
+            <l>No ſheating whore ſhall pick her poke,</l>
+            <l>her warrant her will ſave it,</l>
+            <l>Was wrap it up within her Cloak,</l>
+            <l>none but her ſelf ſhall have it.</l>
+            <l>Well 'twas her chance the other night</l>
+            <l>to fall out with a Carter;</l>
+            <l>The next day he muſt with him fight,</l>
+            <l>now mark what follows after:</l>
+            <l>When his blood is hot, he doth conſent</l>
+            <l>to meet her the next day;</l>
+            <l>The luſty Carter now is bent</l>
+            <l>at Cudgels for to play:</l>
+            <l>The day was come, the Carter ſtands</l>
+            <l>juſt at the place appointed,</l>
+            <l>But <hi>Taffy</hi> he was hurt her hands,</l>
+            <l>and they muſt be anointed.</l>
+            <l>Nay, more than this, his leg is hurt,</l>
+            <l>can neither ſtand nor go:</l>
+            <l>Indeed it is a famous Art,</l>
+            <l>and you the reaſon know.</l>
+            <l>But afterwards they to him told</l>
+            <l>that one to him was come,</l>
+            <l>And in his poke had brought him Gold,</l>
+            <l>O then her legs could run:</l>
+            <l>Then to receive it he did haſte,</l>
+            <l>was glad with all her heart,</l>
+            <l>And kindly he his friend embrac'd;</l>
+            <l>and loath he was to part.</l>
+            <pb facs="tcp:175193:11"/>
+            <l>O her laments unto her friend,</l>
+            <l>and tells her evil fortune,</l>
+            <l>But if you read unto the end,</l>
+            <l>you'll hear of their departing.</l>
+            <l>They walk together up and down,</l>
+            <l>to tell each others mind,</l>
+            <l>His friend gave to him half a Crown,</l>
+            <l>there's twelve pence more behind:</l>
+            <l>It is agreed betwixt them both,</l>
+            <l>that they ſhould ſpend the ſhilling,</l>
+            <l>Then <hi>Taffy</hi> ſwears a binding Oath,</l>
+            <l>that he was not unwilling.</l>
+            <l>It is agreed that they ſhould dine</l>
+            <l>both at a Houſe together,</l>
+            <l>They quickly call for bread and wine,</l>
+            <l>as ſoon as they came thither.</l>
+            <l>Each others Health doth now go round,</l>
+            <l>for they are void of care,</l>
+            <l>The Wine did <hi>Taffy</hi> quite confound,</l>
+            <l>for he hath drank his ſhare.</l>
+            <l>Some words between theſe friends paſt,</l>
+            <l>about their noble blood,</l>
+            <l>Then up ſtarts <hi>Taffy</hi> all in haſte,</l>
+            <l>his friend had croſt his mood.</l>
+            <l>
+               <hi>Cots-plut</hi> you Rogue, was hold her tongue,</l>
+            <l>or her was crack her Crown,</l>
+            <l>Will make her pay for all her wrong,</l>
+            <l>and then he knockt him down.</l>
+            <l>This being done, the people came</l>
+            <l>the reaſon for to know,</l>
+            <l>They thought the <hi>Welſhman</hi> had been ſlain</l>
+            <l>but it was nothing ſo.</l>
+            <pb facs="tcp:175193:12"/>
+            <l>His head was broke, as I may ſay,</l>
+            <l>which to the heart did grieve him,</l>
+            <l>It was not well the other day,</l>
+            <l>if that you will believe him.</l>
+            <l>Now <hi>Taffy</hi> knows not what to do,</l>
+            <l>but he pays it off with thinking,</l>
+            <l>It grieves him now I tell you true,</l>
+            <l>to looſe his friend by drinking.</l>
+            <l>Well, by the Law it is agreed</l>
+            <l>that <hi>Taffy</hi> muſt reſtore</l>
+            <l>Full three and four-pence for the deed,</l>
+            <l>to pay the bloody ſcore.</l>
+            <l>He pays it then with all his heart,</l>
+            <l>was glad he eſcaped ſo,</l>
+            <l>And he ſeeks for to depart,</l>
+            <l>but e're he muſt go,</l>
+            <l>His Landlord then to him did ſay,</l>
+            <l>pay what thou oweſt me,</l>
+            <l>For there is twenty pence to pay,</l>
+            <l>which I expect of thee.</l>
+            <l>
+               <hi>Cots-plut,</hi> was tell her what was do</l>
+            <l>as her may clear the ſcore.</l>
+            <l>Was break her head her tell to you,</l>
+            <l>and give her five Groats more;</l>
+            <l>For her has broke her Brothers head,</l>
+            <l>and un<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o her hath given</l>
+            <l>Full three and fourpence for the deed,</l>
+            <l>'twixt nine groats and eleven.</l>
+            <l>Then hereupon away he goes,</l>
+            <l>he leaves the ſcore to pay,</l>
+            <l>But where he is there's no man knows,</l>
+            <l>for he is fled away.</l>
+            <pb facs="tcp:175193:12"/>
+            <l>Now <hi>Taffy</hi>'s ſilver all is gone,</l>
+            <l>there's not a penny left,</l>
+            <l>And now he travels all alone,</l>
+            <l>to ſeek another ſhift:</l>
+            <l>Into a tavern then he goes,</l>
+            <l>to be a Servant there,</l>
+            <l>Becauſe Canary <hi>Taffy</hi> knows</l>
+            <l>is better than ſmall beer.</l>
+            <l>It was agreed for him to go,</l>
+            <l>a Drawer for to be,</l>
+            <l>No wages unto him they give,</l>
+            <l>becauſe he was not free.</l>
+            <l>Now he is willing for to ſerve</l>
+            <l>at any poor condition,</l>
+            <l>That he might not with hunger ſtarvè,</l>
+            <l>was glad of that profeſſion.</l>
+            <l>Yet he is ſubject unto jeers,</l>
+            <l>and flouts as I ſuppoſe,</l>
+            <l>Sometimes they tell him of his ears,</l>
+            <l>and then his cloven noſe.</l>
+            <l>But <hi>Taffy</hi> now I would adviſe</l>
+            <l>to bear with him all croſſes,</l>
+            <l>Let him be ſilent and be wiſe,</l>
+            <l>for fear of greater loſſes.</l>
+            <l>The next day being <hi>Sunday,</hi> he</l>
+            <l>muſt go into the temple,</l>
+            <l>To hear <hi>Engliſh</hi> Divinity,</l>
+            <l>but he is an ill example.</l>
+            <l>He takes his place, and it is nigh</l>
+            <l>unto the Preachers feet:</l>
+            <l>In little time that he did lye,</l>
+            <l>he fell faſt in a ſleep.</l>
+            <pb facs="tcp:175193:13"/>
+            <l>The Wine did work in <hi>Taffy's</hi> head</l>
+            <l>and that was all the reaſon,</l>
+            <l>So <hi>Taffy</hi> lies as one that's dead,</l>
+            <l>'twas for a little ſeaſon.</l>
+            <l>Awake, awake the Preacher ſaid</l>
+            <l>unto the people all,</l>
+            <l>And then poor <hi>Taffy</hi> was afraid</l>
+            <l>ſome body did him call.</l>
+            <l>By and by, the Welſhman cries,</l>
+            <l>did on a ſudden ſtart,</l>
+            <l>And now he wipes his ſleepy eyes,</l>
+            <l>let ſlip a mighty f—</l>
+            <l>The people hearing <hi>Taffy</hi>'s voice,</l>
+            <l>did at it greatly wonder,</l>
+            <l>But others they did think the Skye</l>
+            <l>was almoſt ſplit aſunder.</l>
+            <l>Now <hi>Taffy</hi> to reſolve the doubt,</l>
+            <l>ariſeth from the ground,</l>
+            <l>And when they ſaw his cloven ſnout</l>
+            <l>they knew it was <hi>Taffy</hi>'s ſound.</l>
+            <l>Therefore it was the peoples mind</l>
+            <l>to drive him out of town,</l>
+            <l>Each man doth prove to him unkind,</l>
+            <l>the firſt man knocks him down.</l>
+            <l>The boys and girls run after him,</l>
+            <l>all people doth him chaſe,</l>
+            <l>Through the River he muſt ſwim,</l>
+            <l>was in a piteous caſe.</l>
+            <l>But <hi>Taffy</hi> wiſh'd himſelf in Hell,</l>
+            <l>for her was ſore offended;</l>
+            <l>And now I wiſh the Reader well:</l>
+            <l>for ſo my ſtory's ended.</l>
+            <trailer>Finis.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
